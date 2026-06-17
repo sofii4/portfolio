@@ -12,13 +12,13 @@ Site single-page, single-file (`index.html`), com animação de boot estilo VM L
 
 ## Deploy
 
-Publicado automaticamente via GitHub Actions a cada `push` na branch `main`.
+Hospedado na [Vercel](https://vercel.com/), conectada diretamente ao repositório GitHub (`sofii4/portfolio`).
 
-1. `git push` → dispara o workflow `.github/workflows/deploy.yml`
-2. O workflow valida `index.html` e publica no GitHub Pages
-3. Site disponível em `https://sofii4.github.io/portfolio/`
+1. `git push` na branch `main` → a Vercel detecta o push via sua integração nativa com o GitHub
+2. Build automático (projeto estático, sem build step) e deploy em produção
+3. Cada Pull Request também recebe automaticamente uma Preview Deployment
 
-> Para o deploy funcionar, habilite em **Settings → Pages → Build and deployment → Source: GitHub Actions** (configuração única, feita pela interface do GitHub).
+> Configuração feita uma única vez em vercel.com → **Add New Project → Import Git Repository → sofii4/portfolio**. Framework Preset: `Other` (site estático).
 
 ## Rodando localmente
 
