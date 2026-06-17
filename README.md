@@ -1,13 +1,10 @@
-# Sofia Lopes Silva — Portfolio
-
-Portfólio de Sofia Lopes Silva
+# 🟣 Sofia Lopes Silva — DevOps Jr Portfolio
 
 Site single-page, single-file (`index.html`), com animação de boot estilo VM Linux, terminal interativo e seções de skills, projetos e contato.
 
 ## Stack
 
 - HTML5 + [Tailwind CSS](https://tailwindcss.com/) (via CDN)
-- [Font Awesome](https://fontawesome.com/) (via CDN)
 - JavaScript puro (sem build step)
 
 ## Deploy
@@ -28,5 +25,3 @@ O deploy é da Vercel, mas a qualidade do código é validada via GitHub Actions
 2. **lighthouse** — audita performance, acessibilidade, boas práticas e SEO (`.github/lighthouserc.json`)
 
 Os resultados aparecem na aba **Actions** do repositório.
-
-
