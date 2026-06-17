@@ -253,7 +253,7 @@
       <a href="#contact" class="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-md border border-purple-500/40 text-xs font-mono text-lilac hover:bg-purple-500/10 hover:shadow-glow-sm transition">
         <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span> status: online
       </a>
-      <button id="mobile-menu-btn" class="md:hidden text-lilac text-xl"><i class="fa-solid fa-bars"></i></button>
+      <button id="mobile-menu-btn" aria-label="Abrir menu de navegação" class="md:hidden text-lilac text-xl"><i class="fa-solid fa-bars"></i></button>
     </div>
     <div id="mobile-menu" class="hidden md:hidden glass-strong border-t border-purple-500/15 px-6 py-4 flex flex-col gap-4 font-mono text-sm text-zinc-300">
       <a href="#about" class="hover:text-lilac">about.me</a>
@@ -612,24 +612,24 @@
       </div>
 
       <div>
-        <label class="block text-xs font-mono text-purple-300 mb-2">--name</label>
-        <input name="name" required type="text" placeholder="Seu nome" class="w-full bg-graphite-2 border border-purple-500/20 rounded-lg px-4 py-3 text-sm font-mono outline-none focus:border-purple-500 focus:shadow-glow-sm transition">
+        <label for="field-name" class="block text-xs font-mono text-purple-300 mb-2">--name</label>
+        <input id="field-name" name="name" required type="text" placeholder="Seu nome" class="w-full bg-graphite-2 border border-purple-500/20 rounded-lg px-4 py-3 text-sm font-mono outline-none focus:border-purple-500 focus:shadow-glow-sm transition">
       </div>
       <div>
-        <label class="block text-xs font-mono text-purple-300 mb-2">--email</label>
-        <input name="email" required type="email" placeholder="seu@email.com" class="w-full bg-graphite-2 border border-purple-500/20 rounded-lg px-4 py-3 text-sm font-mono outline-none focus:border-purple-500 focus:shadow-glow-sm transition">
+        <label for="field-email" class="block text-xs font-mono text-purple-300 mb-2">--email</label>
+        <input id="field-email" name="email" required type="email" placeholder="seu@email.com" class="w-full bg-graphite-2 border border-purple-500/20 rounded-lg px-4 py-3 text-sm font-mono outline-none focus:border-purple-500 focus:shadow-glow-sm transition">
       </div>
       <div>
-        <label class="block text-xs font-mono text-purple-300 mb-2">--priority</label>
-        <select name="priority" class="w-full bg-graphite-2 border border-purple-500/20 rounded-lg px-4 py-3 text-sm font-mono outline-none focus:border-purple-500 transition">
+        <label for="field-priority" class="block text-xs font-mono text-purple-300 mb-2">--priority</label>
+        <select id="field-priority" name="priority" class="w-full bg-graphite-2 border border-purple-500/20 rounded-lg px-4 py-3 text-sm font-mono outline-none focus:border-purple-500 transition">
           <option>P3 — vamos conversar</option>
           <option>P2 — tenho uma vaga</option>
           <option>P1 — contratação urgente 🔥</option>
         </select>
       </div>
       <div>
-        <label class="block text-xs font-mono text-purple-300 mb-2">--message</label>
-        <textarea name="message" required rows="4" placeholder="Descreva o motivo do contato..." class="w-full bg-graphite-2 border border-purple-500/20 rounded-lg px-4 py-3 text-sm font-mono outline-none focus:border-purple-500 focus:shadow-glow-sm transition resize-none"></textarea>
+        <label for="field-message" class="block text-xs font-mono text-purple-300 mb-2">--message</label>
+        <textarea id="field-message" name="message" required rows="4" placeholder="Descreva o motivo do contato..." class="w-full bg-graphite-2 border border-purple-500/20 rounded-lg px-4 py-3 text-sm font-mono outline-none focus:border-purple-500 focus:shadow-glow-sm transition resize-none"></textarea>
       </div>
 
       <button type="submit" class="w-full py-3 rounded-lg bg-gradient-to-r from-purple-600 to-fuchsia-600 font-mono text-sm font-semibold shadow-glow hover:shadow-glow-lg transition-all duration-300">
@@ -639,9 +639,9 @@
     </form>
 
     <div class="reveal flex justify-center gap-6 mt-10 text-2xl text-zinc-400">
-      <a href="https://linkedin.com/in/sofia-lopes-silva" target="_blank" rel="noopener" class="hover:text-lilac hover:shadow-glow-sm transition"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://github.com/sofii4" target="_blank" rel="noopener" class="hover:text-lilac hover:shadow-glow-sm transition"><i class="fa-brands fa-github"></i></a>
-      <a href="mailto:sofia.ls.dev@gmail.com" class="hover:text-lilac transition"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/sofia-lopes-silva" target="_blank" rel="noopener" aria-label="LinkedIn de Sofia Lopes Silva" class="hover:text-lilac hover:shadow-glow-sm transition"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/sofii4" target="_blank" rel="noopener" aria-label="GitHub de Sofia Lopes Silva" class="hover:text-lilac hover:shadow-glow-sm transition"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:sofia.ls.dev@gmail.com" aria-label="Enviar e-mail para Sofia Lopes Silva" class="hover:text-lilac transition"><i class="fa-solid fa-envelope"></i></a>
     </div>
   </section>
 
