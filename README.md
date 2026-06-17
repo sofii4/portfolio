@@ -1,6 +1,6 @@
 # Sofia Lopes Silva — Portfolio
 
-Portfólio pessoal de Sofia Lopes Silva, DevOps / Cloud / Platform Engineering Aspirant.
+Portfólio de Sofia Lopes Silva
 
 Site single-page, single-file (`index.html`), com animação de boot estilo VM Linux, terminal interativo e seções de skills, projetos e contato.
 
@@ -20,6 +20,4 @@ Hospedado na [Vercel](https://vercel.com/), conectada diretamente ao repositóri
 
 > Configuração feita uma única vez em vercel.com → **Add New Project → Import Git Repository → sofii4/portfolio**. Framework Preset: `Other` (site estático).
 
-## Rodando localmente
 
-Não há build. Basta abrir o `index.html` direto no navegador.
