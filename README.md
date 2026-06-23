@@ -1,4 +1,4 @@
-# 🟣 Sofia Lopes Silva — DevOps Jr Portfolio
+# 🟣 Sofia Lopes Silva — DevOps Portfolio
 
 Site single-page, single-file (`index.html`), com animação de boot estilo VM Linux, terminal interativo e seções de skills, projetos e contato.
 
